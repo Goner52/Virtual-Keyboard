@@ -117,7 +117,6 @@ if (localStorage.getItem('currLang')) {
     localStorage.setItem('currLang', JSON.stringify(currLangStorage));
 }
 let isShift = false;
-document.body.innerHTML = "<p>AltLeft + ShiftLeft - сочитание клавишь для смены языка;<br>Кликните на Shift, чтобы сменить регистр;</p>";
 let inputArea = document.createElement("textarea");
 inputArea.cols = 91;
 inputArea.rows = 6;
